@@ -63,7 +63,7 @@ export const InputEmail = styled.input<InputMail>`
     color: var(--gray);
   }
 
-  // way to set border-color: red when error = true. ({error}) = (props.error)
+  // A way to set border-color: red when error = true. ({error}) = (props.error)
   ${({ error }) =>
     error &&
     css`
